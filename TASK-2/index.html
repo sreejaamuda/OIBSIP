@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Sreeja Portfolio Website</title>
+	<script src="https://kit.fontawesome.com/1b3fb36380.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#hobbies">Extracurriculars</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<h1>Hi, I'm <span>Sreeja</span></h1>
+				<p>Computer Science Undegrad</p>
+			</div>
+		</div>
+	</div>
+	<!---------------------About---------------------------------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<!-- <div class="about-col-1">
+					<img src="images/user.png">
+				</div> -->
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Greetings! I'm an aspiring B.Tech Computer Science engineer.I am a Curious, Adaptable as an active
+					learner and attentive listener. Join me on my journey as I explore the vast realms of technology, aiming 
+					to make a positive impact along the way. 
+					Let's shape the future together!</p>
+
+					<div class="tab-title">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<!-- <p class="tab-links" onclick="opentab('projects')">Projects</p> -->
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+						<!-- <p class="tab-links" onclick="opentab('achievements')">Achievements</p> -->
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Programming Languages</span><br>C, Java, C++, Python</li>
+							<li><span>Web Development</span><br>HTML, CSS, JavaScript, PHP, JDBC</li>
+							<li><span>Soft Skills</span><br>Time Management, Team Worker, Critical Thinking, Good Communicator</li>
+							<li><span>Communication Skills</span><br>English (Spoken, Written), Hindi (Spoken, Written)</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>June, 2023 - July, 2023</span><br>Web Development and design Intern at OASIS INFOBYTE</li>
+							<li><span>January, 2023 - February, 2023</span><br>Java Developer Intern at OASIS INFOBYTE</li>
+							<li><span>May, 2023 - June, 2023</span><br>Web Development and design Intern at Let's Grow More</li>
+						</ul>
+					</div>
+					<!-- <div class="tab-contents" id="projects">
+						<ul>
+							<li><span>April, 2022 - June, 2022</span><br>Designed an Online Indian Railway Ticket booking website using Figma</li>
+							<li><span>August, 2020 - July, 2021</span><br>Made an E-library using PHP and MySQL as my final year Diploma project.</li>
+							<li><span>March, 2020 - May, 2020</span><br>Developing a Day-light shifting Clock Using Graphics in C</li>
+						</ul>
+					</div> -->
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2020 - Current</span><br>Pursuing Bachelor Of Technology in Computer Science and Engineering.</li>
+							<li><span>2018 - 2020</span><br>Scored 8.9 CGPA in MPC at RGUKT, Basar.</li>
+							<li><span>2017 - 2018</span><br>Completed SSC with a score of 9.8 CGPA.</li>
+						</ul>
+					</div>
+					<!-- <div class="tab-contents" id="achievements">
+						<ul>
+							<li><span>May, 2023</span><br>Certified in Overview of Free and Open Source Software for Geospatial Technology (FOSS4G), from Indian Space Research Organization, Indian Institute Of Remote Sensing, Dehradun</li>
+							<li><span>February, 2023</span><br>Certified in Microsoft Azure Fundamentals (AZ-900), issued by MS learn</li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---------------------------------------------Services------------------->
+	 <div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fa-sharp fa-solid fa-code"></i>
+					<h2>Web Development and Design</h2>
+					<p> Unlock the Potential of the Web with Cutting-Edge Design and Development Solutions
+						Welcome to my world of web development and design! I specialize in crafting captivating online experiences that drive results. With a keen eye for aesthetics and a knack for innovative solutions, 
+						I bring your vision to life.</p>
+					<a href="#">Learn more</a>
+				<!-- </div>
+				 <div>
+					<i class="fa-sharp fa-solid fa-crop"></i>
+					<h2>Graphic Design for Businesses</h2>
+					<p> Ignite Your Brand's Visual Story with Striking Graphics and Poster Designs
+						Are you ready to make a bold statement and captivate your audience? Look no further! I specialize in crafting stunning graphics and eye-catching posters using the power of Canva.
+						With a keen eye for design and a passion for creativity, I bring your brand's vision to life. From social media graphics that demand attention to captivating event posters that leave a lasting impression, 
+						I tailor each design to effectively communicate your message.</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div>
+					<i class="fa-sharp fa-solid fa-pen-to-square"></i>
+					<h2>Design Thinking</h2>
+					<p> Unleash the Power of Design Thinking: Your Partner in Brainstorming and Innovation
+						Are you looking to unlock fresh perspectives, drive innovation, and solve complex challenges? Look no further! I offer Design Thinking as a service, providing expert facilitation for brainstorming sessions that ignite creativity and spark game-changing ideas.
+						With a deep understanding of Design Thinking methodologies, I guide teams through a collaborative process that combines empathy
+						, ideation, and prototyping.</p>
+					<a href="#">Learn more</a>
+				</div> --> 
+			 </div>
+		</div>
+	</div> 
+	<!----------------------------portfolio--------------------------------->
+	<div id="portfolio">
+		<div class="container">
+			<!-- <h1 class="sub-title">My Works</h1> -->
+			<div class="work-list">
+				
+			</div>
+			<!----<a href="#" class="btn">See more</a>--------------------->
+		</div>
+	</div>
+	<!------------------------------Extracurriculars----------------------->
+	<div id="hobbies">
+		<div class="container">
+			<h1 class="sub-title">My Hobbies</h1>
+			<div class="hobby-list">
+				<div class="hobby">
+					<img src="images/hobby-1.jpg">
+					<div class="layer">
+						<h3>News Reading Online</h3>
+						<p>I read news on my mobile phone in my free time to stay updated about whats happening around us apart from our daily busy schedules.</p>
+						<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="hobby">
+					<img src="images/hobby-2.jpg">
+					<div class="layer">
+						<h3>Listening Music</h3>
+						<p>I love listening to music specifically all kinds of retro genres, Indie-Pop genres and have a soft corner for Bhakti-Bhajans.</p>
+						<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="hobby">
+					<img src="images/hobby-3.jpg">
+					<div class="layer">
+						<h3>Physical Activities</h3>
+						<p>In-order to stay physically fit and mentally active, I prefer outdoor activities like Cycling, Walking / Jogging, Driving and when indoor activities like riddle solving, watching cartoons</p>
+						<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+			</div>
+			<!--<a href="#" class="btn">See more</a>--->
+		</div>
+	</div>
+	<!-------------------------------contact------------------->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p> <i class="fa-solid fa-paper-plane"></i>sreejaamuda@gmail.com</p>
+					<!-- <p><i class="fa-solid fa-square-phone"></i>+91-6305698213</p> -->
+					<div class="social-icons">
+						<!-- <a href="https://www.facebook.com/debajyoti.banerjee.108889"><i class="fa-brands fa-square-facebook"></i></a> -->
+						<a href="https://www.linkedin.com/in/sreeja-amuda-9a120624a/"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://github.com/sreejaamuda"><i class="fa fa-github" aria-hidden="true"></i></a>
+					</div>
+					<!-- <a href="images/my-cv.pdf"  download class="btn btn2">Download CV</a> -->
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>Copyright <span>©</span>Made with <i class="fa-sharp fa-solid fa-heart-pulse"></i> by Sreeja</p>
+		</div>
+	</div>
+<script>
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+			for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+			}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+	<script>
+		var sidemenu = document.getElementById("sidemenu");
+		function openmenu(){
+			sidemenu.style.right="0";
+		}
+		function closemenu(){
+			sidemenu.style.right="-200px";
+		}
+	</script>
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbyvqFeiOCSWQe5YwiUgWKmn-lFgYY6Mf5PqHupOlB-oxCChYY7Xql-c053FktJR5Q/exec'
+		const form = document.forms['submit-to-google-sheet']
+		const msg=getElementById("msg")
+		form.addEventListener('submit', e => {
+		  e.preventDefault()
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => {
+				msg.innerHTML = "Message sent successfully"
+				setTimeout(function(){
+					msg.innerHTML= ""
+				},5000)
+				form.reset()
+			})
+			.catch(error => console.error('Error!', error.message))
+		})
+	</script>
+</body>
+</html>
